@@ -16,15 +16,10 @@ import tool.Page;
 @WebServlet(urlPatterns= {"/servlet/add"})
 public class Add extends HttpServlet{
 
-	public void doGet (HttpServletRequest request, HttpServletResponse response)
-			throws IOException, ServletException
-	{
-		this.doPost(request, response);
-	}
-	public void doPost(
+	public void doGet(
 			HttpServletRequest request,HttpServletResponse response
 			)throws ServletException,IOException{
-		response.setContentType("text/html; charset=UTF-8");
+		request.setCharacterEncoding("text/html; charset=UTF-8");
 
 		PrintWriter out = response.getWriter();
 

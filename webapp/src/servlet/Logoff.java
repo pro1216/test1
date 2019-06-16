@@ -23,7 +23,7 @@ public class Logoff extends HttpServlet{
 	public void doPost(
 			HttpServletRequest request,HttpServletResponse response
 			)throws ServletException,IOException{
-		response.setContentType("text/html; charset=UTF-8");
+		request.setCharacterEncoding("text/html; charset=UTF-8");
 
 		PrintWriter out = response.getWriter();
 

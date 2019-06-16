@@ -21,7 +21,7 @@ if(session.getAttribute("user")== null){
 <p>${error.errorMns }</p>
 </c:if>
 
-<form action="../servlet/add" method="post">
+<form action="../servlet/add" method="get">
 
 国名、市名   <input type="text" name="city">
 <br>読み<input type="text" name="cityName">

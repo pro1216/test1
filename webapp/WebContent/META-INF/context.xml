@@ -37,9 +37,8 @@
              password="root"
              driverClassName="com.mysql.cj.jdbc.Driver"
              defaultAutoCommit="false"
-              useBodyEncodingForURI="true"
 
-             url="jdbc:mysql://localhost:3306/test?serverTimezone=JST"
+             url="jdbc:mysql://localhost:3306/test?characterEncoding=UTF-8&amp;serverTimezone=JST"
              />
 
 </Context>
